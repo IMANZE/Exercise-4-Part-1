@@ -32,4 +32,10 @@
 background-color: rgb(47, 153, 153);
 height: 150px;
 }
- 
+.main-container > div  {
+    line-height: 50px;
+
+  } 
+  .main-container div:not(.option) {
+      padding: 1em 2ch;
+  }
