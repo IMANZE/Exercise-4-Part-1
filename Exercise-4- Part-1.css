@@ -1,41 +1,36 @@
-.main-container{
-    display: flex;
-    flex-direction: column;
-   
+.main-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.header{
-    background-color: rgb(127, 190, 190);
-    border-top: 1px black solid;
-    height: 90px;
-    
+.header {
+  background-color: rgb(127, 190, 190);
+  border-top: 1px black solid;
+  height: 90px;
 }
-.option{
-    display: flex;
-    height: 350px;
-    
-  
+.option {
+  display: flex;
+  height: 350px;
 }
 .navigation {
-    background-color: rgb(255, 177, 32) ;
-   width: 250px;
+  background-color: rgb(255, 177, 32);
+  width: 250px;
 }
-.article{
-    background-color: rgb(255, 226, 59);
-    width: 600px;
+.article {
+  background-color: rgb(255, 226, 59);
+  width: 600px;
 }
-.aside{
-    background-color: rgb(253, 253, 108);
-    width: 450px;
+.aside {
+  background-color: rgb(253, 253, 108);
+  width: 450px;
 }
-.footer{
-background-color: rgb(47, 153, 153);
-height: 150px;
+.footer {
+  background-color: rgb(47, 153, 153);
+  height: 150px;
 }
-.main-container > div  {
-    line-height: 50px;
-
-  } 
-  .main-container div:not(.option) {
-      padding: 1em 2ch;
-  }
+.main-container > div {
+  line-height: 50px;
+}
+.main-container div:not(.option) {
+  padding: 1em 2ch;
+}
